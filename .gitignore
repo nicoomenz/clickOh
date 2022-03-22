@@ -1,0 +1,3 @@
+# SQLite dbs
+db.sqlite3/
+*.sqlite
