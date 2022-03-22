@@ -16,6 +16,10 @@ Icon
 .Spotlight-V100
 .Trashes
 
+# SQLite dbs
+db.sqlite3
+*.sqlite
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
