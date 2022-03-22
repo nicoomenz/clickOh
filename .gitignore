@@ -1,5 +1,9 @@
 # Created by https://www.gitignore.io
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
 ### OSX ###
 .DS_Store
 .AppleDouble
