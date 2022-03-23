@@ -8,7 +8,7 @@ def generate_request(url, params={}):
         return response.json()
 
 def get_casa(params={}):
-    response = generate_request('https://www.dolarsi.com/api/api.php?type=valoresprincipales', params)
+    response = generate_request('http://www.dolarsi.com/api/api.php?type=valoresprincipales', params)
     if response:
         dolar_blue = 0.0
         for casa in response:

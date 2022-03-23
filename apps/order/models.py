@@ -11,11 +11,14 @@ class Order(models.Model):
         for detail in details:
             sum = sum + detail.cuantity
         return sum
-    
+
     def total_dolar(self, details):
         total_pesos = self.total_invoice(details)
         price_dolar = get_casa()
-        return total_pesos/price_dolar
+        if (price_dolar > 0):
+            return total_pesos/price_dolar
+        else:
+            return "no hubo respuesta de apiDolar"
 
 
 
